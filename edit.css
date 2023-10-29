@@ -1,0 +1,23 @@
+body{
+    background-image:url(work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+   
+}
+.box{
+    width:350px;
+    height:100px;
+    background-color:rgba(225,225,225,0.75);
+    margin-top:25% ;
+    margin-left: 25%;
+    margin-bottom: 30%;
+    outline : 20px solid white
+}
+
+/*
+
+
+margin-left: 25%;
+margin-right: 25%;
+border: 5px solid whitesmoke */
