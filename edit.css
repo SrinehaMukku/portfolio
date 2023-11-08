@@ -40,12 +40,11 @@ body{
     font-size: 2.5rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#intro,
 #page1,
 #page2,
 #page3,
-#page4,
-#page5,
-#page6 {
+#page4{
     background-color: rgb(15, 15, 15);
     color: antiquewhite;
 }
@@ -57,10 +56,41 @@ nav img {
     padding: 5rem 3rem 5rem 3rem;
 }
 section{
-    height:25%;
+    height:24%;
     border:2px solid black;
 }
 #page2 img{
     width:90%;
     height:auto;
 }
+#page4{
+    background-color: darkgrey;
+    color: black;
+}
+#page4 img{
+    border-radius: 2px;
+    width:30%;
+    height:30%;
+    column-gap: 5px;
+}
+footer{
+    padding:50% 40%;
+}
+.c1{
+    display:inline-grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    padding-top: 20%;
+    padding-left: 5%;
+    width:90%;
+    height:20%;
+}
+.c1 div{
+    border:2px solid grey;
+    border-radius: 2px;
+    align-content: center;
+}
+.c1 img{
+    width:90%;
+    height:auto;
+    
+} 
