@@ -74,7 +74,7 @@ section{
     column-gap: 5px;
 }
 footer{
-    padding:50% 40%;
+    padding:5% 40%;
 }
 .c1{
     display:inline-grid;
@@ -92,5 +92,21 @@ footer{
 .c1 img{
     width:90%;
     height:auto;
-    
 } 
+#page3{
+    background-image: url("office.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page3 div{
+    padding:3% 30% 3% 30% ;
+    background-color: rgba(46, 44, 44, 0.5);
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.work{
+    padding:20% 10% 0% 35%;
+    margin-bottom: 0px;
+    height:min-content;
+}
